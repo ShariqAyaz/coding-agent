@@ -1,0 +1,216 @@
+2024-09-23 00:36:04,806:INFO:Using Reasoning Model: llama3.1, Code Model: codellama:13b
+2024-09-23 00:36:04,807:DEBUG:connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-09-23 00:36:04,807:DEBUG:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10b76aae0>
+2024-09-23 00:36:04,807:DEBUG:send_request_headers.started request=<Request [b'POST']>
+2024-09-23 00:36:04,808:DEBUG:send_request_headers.complete
+2024-09-23 00:36:04,808:DEBUG:send_request_body.started request=<Request [b'POST']>
+2024-09-23 00:36:04,808:DEBUG:send_request_body.complete
+2024-09-23 00:36:04,808:DEBUG:receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 00:36:41,529:DEBUG:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 22 Sep 2024 23:36:41 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-09-23 00:36:41,532:INFO:HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2024-09-23 00:36:41,532:DEBUG:receive_response_body.started request=<Request [b'POST']>
+2024-09-23 00:36:41,532:DEBUG:receive_response_body.complete
+2024-09-23 00:36:41,532:DEBUG:response_closed.started
+2024-09-23 00:36:41,532:DEBUG:response_closed.complete
+2024-09-23 00:36:41,534:WARNING:No model was recommended by the LLM. Using default model 'LogisticRegression'.
+2024-09-23 00:36:41,535:DEBUG:send_request_headers.started request=<Request [b'POST']>
+2024-09-23 00:36:41,535:DEBUG:send_request_headers.complete
+2024-09-23 00:36:41,535:DEBUG:send_request_body.started request=<Request [b'POST']>
+2024-09-23 00:36:41,535:DEBUG:send_request_body.complete
+2024-09-23 00:36:41,535:DEBUG:receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 00:37:38,270:DEBUG:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 22 Sep 2024 23:37:38 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-09-23 00:37:38,272:INFO:HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2024-09-23 00:37:38,273:DEBUG:receive_response_body.started request=<Request [b'POST']>
+2024-09-23 00:37:38,273:DEBUG:receive_response_body.complete
+2024-09-23 00:37:38,273:DEBUG:response_closed.started
+2024-09-23 00:37:38,273:DEBUG:response_closed.complete
+2024-09-23 00:37:39,012:INFO:Iteration initial: Encountered error/warning: Missing import: from sklearn.metrics import accuracy_score
+2024-09-23 00:37:39,015:INFO:Using Reasoning Model: llama3.1, Code Model: codellama:13b
+2024-09-23 00:37:39,030:DEBUG:send_request_headers.started request=<Request [b'POST']>
+2024-09-23 00:37:39,030:DEBUG:send_request_headers.complete
+2024-09-23 00:37:39,030:DEBUG:send_request_body.started request=<Request [b'POST']>
+2024-09-23 00:37:39,030:DEBUG:send_request_body.complete
+2024-09-23 00:37:39,031:DEBUG:receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 00:38:55,852:DEBUG:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 22 Sep 2024 23:38:55 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-09-23 00:38:55,854:INFO:HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2024-09-23 00:38:55,855:DEBUG:receive_response_body.started request=<Request [b'POST']>
+2024-09-23 00:38:55,855:DEBUG:receive_response_body.complete
+2024-09-23 00:38:55,855:DEBUG:response_closed.started
+2024-09-23 00:38:55,855:DEBUG:response_closed.complete
+2024-09-23 00:39:24,942:INFO:Iteration 0: Encountered error/warning: NameError: A variable or function name is not defined.
+2024-09-23 00:39:24,943:INFO:Using Reasoning Model: llama3.1, Code Model: codellama:13b
+2024-09-23 00:39:24,953:DEBUG:close.started
+2024-09-23 00:39:24,953:DEBUG:close.complete
+2024-09-23 00:39:24,953:DEBUG:connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2024-09-23 00:39:24,954:DEBUG:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10b8f6300>
+2024-09-23 00:39:24,954:DEBUG:send_request_headers.started request=<Request [b'POST']>
+2024-09-23 00:39:24,954:DEBUG:send_request_headers.complete
+2024-09-23 00:39:24,954:DEBUG:send_request_body.started request=<Request [b'POST']>
+2024-09-23 00:39:24,954:DEBUG:send_request_body.complete
+2024-09-23 00:39:24,954:DEBUG:receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 00:40:39,853:DEBUG:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 22 Sep 2024 23:40:39 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-09-23 00:40:39,855:INFO:HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2024-09-23 00:40:39,856:DEBUG:receive_response_body.started request=<Request [b'POST']>
+2024-09-23 00:40:39,856:DEBUG:receive_response_body.complete
+2024-09-23 00:40:39,856:DEBUG:response_closed.started
+2024-09-23 00:40:39,856:DEBUG:response_closed.complete
+2024-09-23 00:40:39,858:INFO:Using Reasoning Model: llama3.1, Code Model: codellama:13b
+2024-09-23 00:40:43,491:INFO:Iteration 1: Encountered error/warning: NameError: A variable or function name is not defined.
+2024-09-23 00:40:43,491:INFO:Using Reasoning Model: llama3.1, Code Model: codellama:13b
+2024-09-23 00:40:43,500:DEBUG:send_request_headers.started request=<Request [b'POST']>
+2024-09-23 00:40:43,501:DEBUG:send_request_headers.complete
+2024-09-23 00:40:43,501:DEBUG:send_request_body.started request=<Request [b'POST']>
+2024-09-23 00:40:43,501:DEBUG:send_request_body.complete
+2024-09-23 00:40:43,501:DEBUG:receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 00:42:07,091:DEBUG:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 22 Sep 2024 23:42:07 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-09-23 00:42:07,095:INFO:HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2024-09-23 00:42:07,095:DEBUG:receive_response_body.started request=<Request [b'POST']>
+2024-09-23 00:42:07,096:DEBUG:receive_response_body.complete
+2024-09-23 00:42:07,096:DEBUG:response_closed.started
+2024-09-23 00:42:07,097:DEBUG:response_closed.complete
+2024-09-23 00:42:07,099:INFO:Using Reasoning Model: llama3.1, Code Model: codellama:13b
+2024-09-23 00:42:10,727:INFO:Iteration 2: Encountered error/warning: NameError: A variable or function name is not defined.
+2024-09-23 00:42:10,728:INFO:Using Reasoning Model: llama3.1, Code Model: codellama:13b
+2024-09-23 00:42:10,740:DEBUG:send_request_headers.started request=<Request [b'POST']>
+2024-09-23 00:42:10,740:DEBUG:send_request_headers.complete
+2024-09-23 00:42:10,741:DEBUG:send_request_body.started request=<Request [b'POST']>
+2024-09-23 00:42:10,741:DEBUG:send_request_body.complete
+2024-09-23 00:42:10,741:DEBUG:receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 00:43:13,635:DEBUG:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 22 Sep 2024 23:43:13 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-09-23 00:43:13,637:INFO:HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2024-09-23 00:43:13,638:DEBUG:receive_response_body.started request=<Request [b'POST']>
+2024-09-23 00:43:13,638:DEBUG:receive_response_body.complete
+2024-09-23 00:43:13,638:DEBUG:response_closed.started
+2024-09-23 00:43:13,638:DEBUG:response_closed.complete
+2024-09-23 00:43:13,640:INFO:Using Reasoning Model: llama3.1, Code Model: codellama:13b
+2024-09-23 00:43:15,425:INFO:Iteration 3: Encountered error/warning: SyntaxError: Check for syntax errors in the code.
+2024-09-23 00:43:15,428:INFO:Using Reasoning Model: llama3.1, Code Model: codellama:13b
+2024-09-23 00:43:15,444:DEBUG:send_request_headers.started request=<Request [b'POST']>
+2024-09-23 00:43:15,445:DEBUG:send_request_headers.complete
+2024-09-23 00:43:15,445:DEBUG:send_request_body.started request=<Request [b'POST']>
+2024-09-23 00:43:15,445:DEBUG:send_request_body.complete
+2024-09-23 00:43:15,445:DEBUG:receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 00:44:43,121:DEBUG:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 22 Sep 2024 23:44:43 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-09-23 00:44:43,123:INFO:HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2024-09-23 00:44:43,124:DEBUG:receive_response_body.started request=<Request [b'POST']>
+2024-09-23 00:44:43,124:DEBUG:receive_response_body.complete
+2024-09-23 00:44:43,124:DEBUG:response_closed.started
+2024-09-23 00:44:43,125:DEBUG:response_closed.complete
+2024-09-23 00:44:43,126:INFO:Using Reasoning Model: llama3.1, Code Model: codellama:13b
+2024-09-23 00:44:44,850:INFO:Iteration 4: Encountered error/warning: SyntaxError: Check for syntax errors in the code.
+2024-09-23 00:44:44,850:INFO:Using Reasoning Model: llama3.1, Code Model: codellama:13b
+2024-09-23 00:44:44,876:DEBUG:send_request_headers.started request=<Request [b'POST']>
+2024-09-23 00:44:44,877:DEBUG:send_request_headers.complete
+2024-09-23 00:44:44,877:DEBUG:send_request_body.started request=<Request [b'POST']>
+2024-09-23 00:44:44,877:DEBUG:send_request_body.complete
+2024-09-23 00:44:44,877:DEBUG:receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 00:46:04,720:DEBUG:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 22 Sep 2024 23:46:04 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-09-23 00:46:04,723:INFO:HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2024-09-23 00:46:04,723:DEBUG:receive_response_body.started request=<Request [b'POST']>
+2024-09-23 00:46:04,723:DEBUG:receive_response_body.complete
+2024-09-23 00:46:04,723:DEBUG:response_closed.started
+2024-09-23 00:46:04,723:DEBUG:response_closed.complete
+2024-09-23 00:46:04,725:INFO:Using Reasoning Model: llama3.1, Code Model: codellama:13b
+2024-09-23 00:46:08,368:INFO:Iteration 5: Encountered error/warning: NameError: A variable or function name is not defined.
+2024-09-23 00:46:08,369:INFO:Using Reasoning Model: llama3.1, Code Model: codellama:13b
+2024-09-23 00:46:08,380:DEBUG:send_request_headers.started request=<Request [b'POST']>
+2024-09-23 00:46:08,381:DEBUG:send_request_headers.complete
+2024-09-23 00:46:08,381:DEBUG:send_request_body.started request=<Request [b'POST']>
+2024-09-23 00:46:08,381:DEBUG:send_request_body.complete
+2024-09-23 00:46:08,381:DEBUG:receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 00:47:32,117:DEBUG:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 22 Sep 2024 23:47:32 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-09-23 00:47:32,120:INFO:HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2024-09-23 00:47:32,120:DEBUG:receive_response_body.started request=<Request [b'POST']>
+2024-09-23 00:47:32,120:DEBUG:receive_response_body.complete
+2024-09-23 00:47:32,120:DEBUG:response_closed.started
+2024-09-23 00:47:32,120:DEBUG:response_closed.complete
+2024-09-23 00:47:32,122:INFO:Using Reasoning Model: llama3.1, Code Model: codellama:13b
+2024-09-23 00:47:32,122:INFO:Switched to next code model: deepseek-coder-v2
+2024-09-23 00:47:32,146:INFO:Using Reasoning Model: llama3.1, Code Model: deepseek-coder-v2
+2024-09-23 00:47:32,147:DEBUG:send_request_headers.started request=<Request [b'POST']>
+2024-09-23 00:47:32,147:DEBUG:send_request_headers.complete
+2024-09-23 00:47:32,147:DEBUG:send_request_body.started request=<Request [b'POST']>
+2024-09-23 00:47:32,147:DEBUG:send_request_body.complete
+2024-09-23 00:47:32,147:DEBUG:receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 00:48:22,213:DEBUG:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 22 Sep 2024 23:48:22 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-09-23 00:48:22,213:INFO:HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2024-09-23 00:48:22,214:DEBUG:receive_response_body.started request=<Request [b'POST']>
+2024-09-23 00:48:22,214:DEBUG:receive_response_body.complete
+2024-09-23 00:48:22,214:DEBUG:response_closed.started
+2024-09-23 00:48:22,214:DEBUG:response_closed.complete
+2024-09-23 00:48:22,215:WARNING:No model was recommended by the LLM. Using default model 'LogisticRegression'.
+2024-09-23 00:48:22,217:DEBUG:send_request_headers.started request=<Request [b'POST']>
+2024-09-23 00:48:22,218:DEBUG:send_request_headers.complete
+2024-09-23 00:48:22,218:DEBUG:send_request_body.started request=<Request [b'POST']>
+2024-09-23 00:48:22,218:DEBUG:send_request_body.complete
+2024-09-23 00:48:22,219:DEBUG:receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 00:49:03,772:DEBUG:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 22 Sep 2024 23:49:03 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-09-23 00:49:03,775:INFO:HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2024-09-23 00:49:03,775:DEBUG:receive_response_body.started request=<Request [b'POST']>
+2024-09-23 00:49:03,775:DEBUG:receive_response_body.complete
+2024-09-23 00:49:03,776:DEBUG:response_closed.started
+2024-09-23 00:49:03,776:DEBUG:response_closed.complete
+2024-09-23 00:49:07,358:INFO:Iteration 6: Warnings detected: 2024-09-23 00:49:06,266 - INFO - Starting the main function
+2024-09-23 00:49:06,266 - INFO - Loading data from xdata.csv
+2024-09-23 00:49:06,275 - INFO - Starting preprocessing
+/Users/shariqayaztech/Projects/LLMSandbox/py01_LLM_WORKED_SELF PYTHON CODE_DATASCIENCE/output/venv/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+2024-09-23 00:49:07,302 - INFO - Model Evaluation - Accuracy: 0.8035, ROC AUC Score: 0.5
+2024-09-23 00:49:07,303 - INFO - Confusion Matrix: 
+[[1607    0]
+ [ 393    0]]
+2024-09-23 00:49:07,303 - INFO - Main function completed successfully
+2024-09-23 00:49:07,720:INFO:Iteration 6: Encountered error/warning: 2024-09-23 00:49:06,266 - INFO - Starting the main function
+2024-09-23 00:49:06,266 - INFO - Loading data from xdata.csv
+2024-09-23 00:49:06,275 - INFO - Starting preprocessing
+/Users/shariqayaztech/Projects/LLMSandbox/py01_LLM_WORKED_SELF PYTHON CODE_DATASCIENCE/output/venv/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+2024-09-23 00:49:07,302 - INFO - Model Evaluation - Accuracy: 0.8035, ROC AUC Score: 0.5
+2024-09-23 00:49:07,303 - INFO - Confusion Matrix: 
+[[1607    0]
+ [ 393    0]]
+2024-09-23 00:49:07,303 - INFO - Main function completed successfully
+2024-09-23 00:49:07,721:INFO:Using Reasoning Model: llama3.1, Code Model: deepseek-coder-v2
+2024-09-23 00:49:07,734:DEBUG:send_request_headers.started request=<Request [b'POST']>
+2024-09-23 00:49:07,735:DEBUG:send_request_headers.complete
+2024-09-23 00:49:07,735:DEBUG:send_request_body.started request=<Request [b'POST']>
+2024-09-23 00:49:07,735:DEBUG:send_request_body.complete
+2024-09-23 00:49:07,735:DEBUG:receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 00:50:03,825:DEBUG:receive_response_headers.complete return_value=(b'HTTP/1.1', 500, b'Internal Server Error', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 22 Sep 2024 23:50:03 GMT'), (b'Content-Length', b'69')])
+2024-09-23 00:50:03,828:INFO:HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 500 Internal Server Error"
+2024-09-23 00:50:03,828:DEBUG:receive_response_body.started request=<Request [b'POST']>
+2024-09-23 00:50:03,828:DEBUG:receive_response_body.complete
+2024-09-23 00:50:03,828:DEBUG:response_closed.started
+2024-09-23 00:50:03,829:DEBUG:response_closed.complete
+2024-09-23 00:50:03,830:ERROR:Unexpected error during execution: an unknown error was encountered while running the model 
+
+
+2024-09-23 00:50:04,195:INFO:Iteration 6: Encountered error/warning: UnknownError: An error occurred.
+2024-09-23 00:50:04,195:INFO:Using Reasoning Model: llama3.1, Code Model: deepseek-coder-v2
+2024-09-23 00:50:04,203:DEBUG:send_request_headers.started request=<Request [b'POST']>
+2024-09-23 00:50:04,203:DEBUG:send_request_headers.complete
+2024-09-23 00:50:04,203:DEBUG:send_request_body.started request=<Request [b'POST']>
+2024-09-23 00:50:04,203:DEBUG:send_request_body.complete
+2024-09-23 00:50:04,204:DEBUG:receive_response_headers.started request=<Request [b'POST']>
+2024-09-23 00:51:03,014:DEBUG:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Sun, 22 Sep 2024 23:51:03 GMT'), (b'Transfer-Encoding', b'chunked')])
+2024-09-23 00:51:03,016:INFO:HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2024-09-23 00:51:03,017:DEBUG:receive_response_body.started request=<Request [b'POST']>
+2024-09-23 00:51:03,017:DEBUG:receive_response_body.complete
+2024-09-23 00:51:03,017:DEBUG:response_closed.started
+2024-09-23 00:51:03,017:DEBUG:response_closed.complete
+2024-09-23 00:51:03,019:INFO:Using Reasoning Model: llama3.1, Code Model: deepseek-coder-v2
+2024-09-23 00:51:03,020:INFO:Maximum iterations reached without successful execution.
+2024-09-23 00:51:03,020:INFO:Statistics saved to stats.json
+2024-09-23 00:51:03,021:INFO:Summary report saved to summary_report.json

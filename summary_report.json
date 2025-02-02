@@ -1,0 +1,12 @@
+{
+    "Total Iterations": 7,
+    "Successful Executions": 0,
+    "Errors": 7,
+    "Warnings": 1,
+    "Code Changes": 6,
+    "Average Execution Time": 91.12626731395721,
+    "Error Types": {
+        "NameError": 4,
+        "SyntaxError": 2
+    }
+}
